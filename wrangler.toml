@@ -1,0 +1,12 @@
+name = "bookfilderwow-bot"
+main = "src/index.ts"
+compatibility_date = "2026-09-26"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "bookfilderwow-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
+
+[vars]
+GITHUB_REPO = "whispermmepub/wow-books"
+BOOKS_URL = "https://raw.githubusercontent.com/whispermmepub/wow-books/main/data.json"
